@@ -5,8 +5,8 @@
 #blogpost1 {
   background-color: #fadadd;
   border-color: #0000FF;
-  border: 10%;
   border-style: solid;
+  padding: 10px;
 }
 
 th {
@@ -18,7 +18,6 @@ th {
 }
 
 table {
-  border: 10%;
   border-color: #000000;
   border-style: solid;
   size: 80%;
