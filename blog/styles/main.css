@@ -1,0 +1,25 @@
+body {
+  background-color: #00FFFF;
+}
+
+#blogpost1 {
+  background-color: #fadadd;
+  border-color: #0000FF;
+  border: 10%;
+  border-style: solid;
+}
+
+th {
+  border: 10%;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #fadadd
+}
+
+table {
+  border: 10%;
+  border-color: #000000;
+  border-style: solid;
+  size: 80%;
+  background-color: #FF69B4;
+}
