@@ -23,6 +23,7 @@ table {
   border-style: solid;
   size: 80%;
   background-color: #FF69B4;
+  position: sticky;top: 0px;
   grid-template-rows: [index] 25% [about me] 25% [about my choices] 25% [Te Houstawa-template] 25%;
 }
 
