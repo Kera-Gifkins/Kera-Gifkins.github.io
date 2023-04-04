@@ -1,8 +1,7 @@
-body {
-  background-color: #00FFFF;
-  font-family: Sans-Serif;
-}
-
+  body {
+    background-color: #00FFFF;
+    font-family: Sans-Serif;
+  }
 #blogpost1 {
   background-color: #fadadd;
   border-color: #0000FF;
@@ -14,7 +13,8 @@ th {
   border: 10%;
   border-color: #000000;
   border-style: solid;
-  background-color: #fadadd
+  background-color: #fadadd;
+  font-size: 24px;
 }
 
 table {
@@ -23,20 +23,21 @@ table {
   border-style: solid;
   size: 80%;
   background-color: #FF69B4;
+  grid-template-rows: [index] 25% [about me] 25% [about my choices] 25% [Te Houstawa-template] 25%;
 }
 
 p {
-  font-size: 16px;
-}
-
-h3 {
   font-size: 20px;
 }
 
-h2 {
+h3 {
   font-size: 24px;
 }
 
-h1 {
+h2 {
   font-size: 28px;
+}
+
+h1 {
+  font-size: 32px;
 }
