@@ -3,13 +3,19 @@
     font-family: Sans-Serif;
     text-align: center;
   }
-#blogpost1 {
+.blogpost1 {
   background-color: #fadadd;
   border: #0000FF solid 3px;
   padding: 10px;
 }
 
-#topimage {
+.sidebar {
+  border: #000000 3px solid;
+  background-color: #FF69B4;
+  Position:sticky;top: 10%;
+}
+
+.topimage {
   max-width: 300px;
   max-height: 450px;
   border-radius: 50%;
@@ -25,7 +31,7 @@ th {
   padding: 5px;
 }
 
-table {
+.topbar {
   border-color: #000000;
   border: 3px solid;
   background-color: #FF69B4;
