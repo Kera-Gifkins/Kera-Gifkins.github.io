@@ -1,18 +1,25 @@
   body {
     background-color: #00FFFF;
     font-family: Sans-Serif;
+    text-align: center;
   }
 #blogpost1 {
   background-color: #fadadd;
-  border-color: #0000FF;
-  border-style: solid;
+  border: #0000FF solid 3px;
   padding: 10px;
 }
 
+#topimage {
+  max-width: 300px;
+  max-height: 450px;
+  border-radius: 50%;
+  border:#0000FF 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 th {
-  border: 10%;
-  border-color: #000000;
-  border-style: solid;
+  border: 3px solid #000000;
   background-color: #fadadd;
   font-size: 24px;
   padding: 5px;
@@ -20,11 +27,11 @@ th {
 
 table {
   border-color: #000000;
-  border-style: solid;
-  size: 80%;
+  border: 3px solid;
   background-color: #FF69B4;
   position: sticky;top: 0px;
-  grid-template-rows: [index] 25% [about me] 25% [about my choices] 25% [Te Houstawa-template] 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
