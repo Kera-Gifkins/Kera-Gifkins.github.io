@@ -12,7 +12,7 @@
 .sidebar {
   border: #000000 3px solid;
   background-color: #FF69B4;
-  Position:sticky;top: 10%;
+  Position:fixed;top: 10%;
 }
 
 .topimage {
@@ -35,7 +35,7 @@ th {
   border-color: #000000;
   border: 3px solid;
   background-color: #FF69B4;
-  position: sticky;top: 0px;
+  position: fixed;top: 0px;
   margin-left: auto;
   margin-right: auto;
 }
