@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Kera Gifkins, Javascript Dom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="blog/styles/main.css" rel="stylesheet" type="text/css">
+    <body>
+      <p id="top">top</p>
+      <h1>Welcome to Kera Gifkins learning blog</h1>
+      <img src="blog/Kitty3.jpg" class="topimage">
+      <table class="topbar">
+        <tr>
+          <th><a href="index.html">Main blog/index</a></th>
+          <th><a href="about-me.html">About me</a></th>
+          <th><a href="about-my-choices.html">About my choices</a></th>
+          <th><a href="te-houtaewa-template.html">Te Houtaewa-template</a></th>\
+          <th><a href="Margin-vs-Border-vs-Padding.html">Is it the margin, padding or the border?</a></th>
+          <th><a href="learning-plan.html">Learning plan</a></th>
+          <th><a href="javascript-dom.html">The Dom</a></th>
+        </tr>
+      </table>
+      <h2 class="blogpost1">The Dom</h2>
+      <h3 class="blogpost1">Control flow</h3>
+        <p class="blogpost1">Control flows are used to monitor and update the page depending on a small thing in the code, to compare to real life it could be about your daily commute to work and estimating how long it'll take to get to work, where you start at home, and head to work, however maybe you sometimes buy your lunch at the dairy on your way to work and sometimes you don't this is what we would call an if statement, if you stop at dairy add 5 minutes to your estamed commute to work time, if you do not stop at the dairy this does not need to be factored.</p>
+      <h3 class="blogpost1">Loops</h3>
+        <p class="blogpost1">After reading control flows, you may be asking but what if I have multiple variables in my daily commute, well that's where loops could come in more handy, loops can access a variety of information, it does this by using a defined array, in this case this is just a set amount of variables to your commute, let's say on Monday Wednesday friday you start at 7am so traffic isn't really a concern but on Tuesday and Thursday you start at 9am, so traffic is a concern, in this case, part of the loop would be if traffic is a concern add 10 minutes, now we have if you stop at the dairy and whether there is traffic or not, a third condition could be dropping the kids off at school or a babysitters which might add another 20 minutes.<br>
+          so our commute time needs to factor all of these in and this is possible by using code to write a funtion, the array names can be anything but to make it easier on us we'd use noFactors which would be = to the lowest possible commute time let's say 15 minutes, dropKidOff which adds 20 minutes, trafficIsConcern which adds 10, and if we're stopping at the dairy or not which adds another 5 minutes, as we can see the highest possible values is 50 minutes. this will be demonstrated below if it is not already, at time of writting this explanation I am not in the headspace to write the code but when I do it will show below.</p>
+      <h3 class ="blogpost1">Commute Time</h3>
+      <p class="blogpost1">
+          <input type="checkbox" id="Traffic"> <label id ="trafficIsConcern"></label> <br>
+          <input type="checkbox" id="Kids"><label id="dropKidsOff"></label><br>
+          <input type="checkbox" id="Dairy"><label id="stopAtDairy"></label><br>
+          <button id="button">Calulate commute time</button>
+          <h4 id="commuteTime" class="blogpost1"></h4>
+          </p>
+        <p class="blogpost1"><a href=#top>Back to top</a></p>
+        <p class="blogpost1"></p>
+        <script src="blog/Functions/javascript.js"></script>
+      </body>
+  </head>
+</html>
