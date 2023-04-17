@@ -1,7 +1,4 @@
 let Commutestart = 15
-let kid = 7
-let vechicles = 7
-let food = 7
 
 function fillInCheckboxes() {
   document.getElementById('trafficIsConcern').innerHTML =
@@ -11,31 +8,41 @@ function fillInCheckboxes() {
   document.getElementById('stopAtDairy').innerHTML =
     'Stopping in at the dairy? (add 5 minutes)'
 }
+function beingweird() {
+  kid = document.getElementById('Kids')
+  traffics = document.getElementById('Traffic')
+  foodstops = document.getElementById('Dairy')
+}
 
 function checkboxes() {
-  if (document.getElementById('Kids').checked) {
-    kid = 20
+  if (kid.checked == true) {
+    kids = 20
   } else {
-    kid = 10
+    kids = 0
   }
-
-  if (document.getElementById('Traffic').checked) {
-    vechicles = 10
+  if (traffics.checked == true) {
+    traffic = 10
   } else {
-    vechicles = 0
+    traffic = 0
   }
-
-  if (document.getElementsById('Dairy').checked) {
-    food = 5
+  if (foodstops.checked == true) {
+    foodstop = 5
   } else {
-    food = 10
+    foodstop = 0
   }
 }
+
 function displayTime() {
-  checkboxes
   document.getElementById('commuteTime').innerHTML =
-    'Commute Time: ' + [kid + Commutestart + vechicles + food] + ' minutes'
+    'Commute Time: ' + [kids + Commutestart + traffic + foodstop] + ' minutes'
 }
-document.getElementById('button').onclick = displayTime
 
+document.getElementById('button').onclick = buttons
+
+function buttons() {
+  checkboxes()
+  displayTime()
+}
+
+beingweird()
 fillInCheckboxes()
